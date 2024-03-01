@@ -58,7 +58,7 @@ function displayView(){
   
   <div class="col-lg-4 col-md-5 my-4">
   <section id="main-carousels" class="splide product_sec1" aria-label="My Awesome Gallery" >
-    <div class="splide__track"  data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide">
           <img src="${quickView.imgs[0]}" alt="">
@@ -183,7 +183,7 @@ function displayView(){
 <div class="col-lg-3" >
 
   
-  <div class="product__card" data-aos="zoom-in-up" data-aos-duration="1000">
+  <div class="product__card">
       <div class="product__card__icon">
           <span><i><i class="fa-solid fa-truck-moving"></i></i></span>
       </div> <!-- product__card__icon -->
@@ -196,7 +196,7 @@ function displayView(){
 
 
 
-<div class="product__card" data-aos="zoom-in-up" data-aos-duration="1000">
+<div class="product__card">
   <div class="product__card__icon">
       <span><i><i class="fa-solid fa-dollar-sign"></i></i></span>
   </div> <!-- product__card__icon -->
@@ -208,7 +208,7 @@ function displayView(){
 
 
 
-<div class="product__card" data-aos="zoom-in-up" data-aos-duration="1000">
+<div class="product__card">
   <div class="product__card__icon">
       <span><i><i class="fa-regular fa-address-card"></i></i></span>
   </div> <!-- product__card__icon -->
