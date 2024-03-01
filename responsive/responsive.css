@@ -449,8 +449,8 @@
 
 
 .cart__list .cart__item__img img{
-  width: 90px;
-  height: 85px;
+  width: 108px;
+  height: 109px;
 }
 .sec3 .sec3__item .sec3__item__text h2 span{
   font-size: 20px;
@@ -595,6 +595,9 @@ padding: 0px 0px;
   right:10px;
   top:10px;
 
+  }
+  .cart__item__list {
+    gap: 10px;
   }
 }
 

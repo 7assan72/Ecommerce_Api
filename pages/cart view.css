@@ -33,7 +33,7 @@ color: rgb(0, 0, 0);
 
 }
 .cart_view .cart__item__text{
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .cartViewEnd{
     display: none;
