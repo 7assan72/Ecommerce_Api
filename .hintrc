@@ -3,19 +3,12 @@
     "development"
   ],
   "hints": {
+    "compat-api/css": "off",
+    "button-type": "off",
     "axe/name-role-value": "off",
-    "axe/parsing": "off",
-    "axe/forms": "off",
+    "compat-api/html": "off",
     "no-inline-styles": "off",
     "axe/text-alternatives": "off",
     "axe/keyboard": "off"
-  },
-  "browserslist": [
-    "defaults",
-    "not ie 11",
-    "not and_ff <= 119",
-    "not firefox <= 121",
-    "not ios_saf <= 17.1",
-    "not safari <= 17.2"
-  ]
+  }
 }
