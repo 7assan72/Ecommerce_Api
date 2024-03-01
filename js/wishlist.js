@@ -31,7 +31,7 @@ function displaywhichlist(){
     for(let i=0 ; i<whishlist.length ; i++){
         whichListList +=`
         
-        <div class="col-12" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="col-12" >
         <div class="cart__item cart_view cart__list">
 <div class="cart__item__list">
 <div class="cart__item__img">

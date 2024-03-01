@@ -409,7 +409,7 @@ ${productArray[i].onsale ? `<span class="sec2__item__text--sale">€${productArr
      perPage: 5,
      span: true,
      autoplay: true,
-     interval: 2000,
+     interval: 3000,
      perMove: 1,
      breakpoints: {
        400: { perPage: 1 },
