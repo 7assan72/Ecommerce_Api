@@ -72,7 +72,7 @@
           display: flex;
           justify-content: space-around;
           flex-direction: row ;
-          margin-left: 126px;
+          margin-left: 124px;
           margin-top: 23px;
       }
       .sec3 .sec3__item .sec3__item__text>span{
@@ -278,7 +278,7 @@
  
       .header .navbar{
        
-        padding: 5PX 0PX;
+        padding: 11PX 1PX;
     }
     .home .splide__arrow--prev{
       display: none;
