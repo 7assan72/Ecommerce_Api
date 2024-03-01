@@ -427,7 +427,7 @@ function displayProduct1(productArray){
         porductlist1 +=`
 
         <li class="splide__slide" <li class="splide__slide" data-aos="fade-up"
-        data-aos-duration="1000">
+        data-aos-duration="600">
         
         <div class="sec2__items">
     
