@@ -650,15 +650,15 @@ function displayShop(productArray, view){
                  <div class="sec2__item__icon ">
           
                  
- <div id="showing"   onclick="show(productArray3, ${i})"   > <i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
- <div onclick="wishlist(productArray3, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></div>
+ <div id="showing"   onclick="show(productArray88, ${i})"   > <i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
+ <div onclick="wishlist(productArray88, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></div>
          
                    </div> <!--sec2__item__icon  -->
     
                    <div class="sec2__item__btn">
-                     <button class="btn1" id="btn__show" onclick="cartShow(productArray3, ${i})" ><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                     <button class="btn1" id="btn__show" onclick="cartShow(productArray88, ${i})" ><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
                    </div>
-                   <a href="./products.html" onclick="quicks(productArray3, ${i})" >
+                   <a href="./products.html" onclick="quicks(productArray88, ${i})" >
                    <img src="${productArray[i].imgs[1]}"   class="img-fluid" alt="" >
                </a>
     
@@ -675,9 +675,9 @@ function displayShop(productArray, view){
           
             <ul>
             
-              <li id="showing"   onclick="show(productArray3, ${i})"  > <i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
-              <li onclick="wishlist(productArray3, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></li>
-              <li onclick="cartShow(productArray3, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
+              <li id="showing"   onclick="show(productArray88, ${i})"  > <i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
+              <li onclick="wishlist(productArray88, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></li>
+              <li onclick="cartShow(productArray88, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
               
             </ul>
     
