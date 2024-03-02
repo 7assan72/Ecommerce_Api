@@ -84,6 +84,7 @@
         position: sticky;
         width: 174px;
         left:5%;
+        height: 71px;
 
       }
       .sec3 .sec3__item .sec3__item__text span{
@@ -812,7 +813,7 @@ margin-left: 54px;
 .sec2__item__icon2 {
   position: sticky;
   width: 174px;
-  left:38%;
+  left:35%;
 
 }
 }
