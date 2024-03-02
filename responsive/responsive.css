@@ -76,16 +76,14 @@
           margin-top: 23px;
       }
       .sec2__item__icon2 ul{
-                  display: flex;
-          justify-content: space-around;
-          flex-direction: row ;
-          margin-left: 59px;
-          margin-top: 23px;
+
+          margin-left: 94px;
+
       }
       .sec2__item__icon2 {
         position: sticky;
         width: 174px;
-        left:33%;
+        left:5%;
 
       }
       .sec3 .sec3__item .sec3__item__text span{
@@ -805,5 +803,16 @@ sec3 .sec3__item .sec3__item__text {
   right:75px;
    width: 120px;
   font-size: 13px; 
+}
+.sec2__item__icon2 ul{
+
+margin-left: 54px;
+
+}
+.sec2__item__icon2 {
+  position: sticky;
+  width: 174px;
+  left:38%;
+
 }
 }
