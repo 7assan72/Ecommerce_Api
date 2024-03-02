@@ -409,13 +409,13 @@ citysSelect.addEventListener("change", function() {
                <div class="sec2__item__img__show">
               
                  <div class="sec2__item__img__hide ">
-                   <div class="sec2__item__icon ">
+                   <div class="sec2__item__icon sec2__item__icon2 ">
             
                    
    <div id="showing"   onclick="show(productArray30, ${i})"   > <i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
    <div onclick="wishlist(productArray30, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></div>
            
-                     </div> <!--sec2__item__icon  -->
+                     </div> <!--sec2__item__icon sec2__item__icon2  -->
       
                      <div class="sec2__item__btn">
                        <button class="btn1" id="btn__show" onclick="cartShow(productArray30, ${i})" ><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
@@ -433,7 +433,7 @@ citysSelect.addEventListener("change", function() {
                </div> <!-- sec2__item__img__show-->
               </div> <!-- sec2__img -->
       
-              <div class="sec2__item__icon d-xl-none d-flex">
+              <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
             
               <ul>
               
@@ -443,7 +443,7 @@ citysSelect.addEventListener("change", function() {
                 
               </ul>
       
-              </div> <!--sec2__item__icon  -->
+              </div> <!--sec2__item__icon sec2__item__icon2  -->
       
       <div class="sec2__item__text text-center">
        <h3>${productArray[i].tittle}</h3>
@@ -498,13 +498,13 @@ function displayShop(productArray, view){
              <div class="sec2__item__img__show">
             
                <div class="sec2__item__img__hide ">
-                 <div class="sec2__item__icon ">
+                 <div class="sec2__item__icon sec2__item__icon2 ">
           
                  
  <div id="showing"   onclick="show(productArray3, ${i})"   > <i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
  <div onclick="wishlist(productArray3, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></div>
          
-                   </div> <!--sec2__item__icon  -->
+                   </div> <!--sec2__item__icon sec2__item__icon2  -->
     
                    <div class="sec2__item__btn">
                      <button class="btn1" id="btn__show" onclick="cartShow(productArray3, ${i})" ><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
@@ -522,7 +522,7 @@ function displayShop(productArray, view){
              </div> <!-- sec2__item__img__show-->
             </div> <!-- sec2__img -->
     
-            <div class="sec2__item__icon d-xl-none d-flex">
+            <div class="sec2__item__icon sec2__item__icon2  d-xl-none">
           
             <ul>
             
@@ -532,7 +532,7 @@ function displayShop(productArray, view){
               
             </ul>
     
-            </div> <!--sec2__item__icon  -->
+            </div> <!--sec2__item__icon sec2__item__icon2  -->
     
     <div class="sec2__item__text text-center">
      <h3>${productArray[i].tittle}</h3>
@@ -647,13 +647,13 @@ function displayShop(productArray, view){
              <div class="sec2__item__img__show">
             
                <div class="sec2__item__img__hide ">
-                 <div class="sec2__item__icon ">
+                 <div class="sec2__item__icon sec2__item__icon2 ">
           
                  
  <div id="showing"   onclick="show(productArray88, ${i})"   > <i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
  <div onclick="wishlist(productArray88, ${i})"> <i class="fa-solid fa-heart"></i><span>wishlist</span></div>
          
-                   </div> <!--sec2__item__icon  -->
+                   </div> <!--sec2__item__icon sec2__item__icon2  -->
     
                    <div class="sec2__item__btn">
                      <button class="btn1" id="btn__show" onclick="cartShow(productArray88, ${i})" ><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
@@ -671,7 +671,7 @@ function displayShop(productArray, view){
              </div> <!-- sec2__item__img__show-->
             </div> <!-- sec2__img -->
     
-            <div class="sec2__item__icon d-xl-none d-flex">
+            <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
           
             <ul>
             
@@ -681,7 +681,7 @@ function displayShop(productArray, view){
               
             </ul>
     
-            </div> <!--sec2__item__icon  -->
+            </div> <!--sec2__item__icon sec2__item__icon2  -->
     
     <div class="sec2__item__text text-center">
     <h3>${productArray[i].tittle}</h3>
@@ -804,10 +804,10 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="sec2__img">
                             <div class="sec2__item__img__show">
                                 <div class="sec2__item__img__hide ">
-                                    <div class="sec2__item__icon ">
+                                    <div class="sec2__item__icon sec2__item__icon2 ">
                                         <div id="showing" onclick="show(productArray99, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
                                         <div onclick="wishlist(productArray99, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></div>
-                                    </div> <!--sec2__item__icon  -->
+                                    </div> <!--sec2__item__icon sec2__item__icon2  -->
                                     <div class="sec2__item__btn">
                                         <button class="btn1" id="btn__show" onclick="cartShow(productArray99, ${i})"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
                                     </div>
@@ -820,13 +820,13 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </a>
                             </div> <!-- sec2__item__img__show-->
                         </div> <!-- sec2__img -->
-                        <div class="sec2__item__icon d-xl-none d-flex">
+                        <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
                             <ul>
                                 <li id="showing" onclick="show(productArray99, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
                                 <li onclick="wishlist(productArray99, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></li>
                                 <li onclick="cartShow(productArray99, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
                             </ul>
-                        </div> <!--sec2__item__icon  -->
+                        </div> <!--sec2__item__icon sec2__item__icon2  -->
                         <div class="sec2__item__text text-center">
                         <h3>${productArray[i].tittle}</h3>
 
@@ -892,10 +892,10 @@ document.addEventListener("DOMContentLoaded", function() {
                       <div class="sec2__img">
                           <div class="sec2__item__img__show">
                               <div class="sec2__item__img__hide ">
-                                  <div class="sec2__item__icon ">
+                                  <div class="sec2__item__icon sec2__item__icon2 ">
                                       <div id="showing" onclick="show(productArray9, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
                                       <div onclick="wishlist(productArray9, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></div>
-                                  </div> <!--sec2__item__icon  -->
+                                  </div> <!--sec2__item__icon sec2__item__icon2  -->
                                   <div class="sec2__item__btn">
                                       <button class="btn1" id="btn__show" onclick="cartShow(productArray9, ${i})"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
                                   </div>
@@ -908,13 +908,13 @@ document.addEventListener("DOMContentLoaded", function() {
                               </a>
                           </div> <!-- sec2__item__img__show-->
                       </div> <!-- sec2__img -->
-                      <div class="sec2__item__icon d-xl-none d-flex">
+                      <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
                           <ul>
                               <li id="showing" onclick="show(productArray9, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
                               <li onclick="wishlist(productArray9, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></li>
                               <li onclick="cartShow(productArray9, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
                           </ul>
-                      </div> <!--sec2__item__icon  -->
+                      </div> <!--sec2__item__icon sec2__item__icon2  -->
                       <div class="sec2__item__text text-center">
        <h3>${productArray[i].tittle}</h3>
                     
@@ -987,10 +987,10 @@ if (cartContainer.style.left === "0px") {
                                           <div class="sec2__img">
                                               <div class="sec2__item__img__show">
                                                   <div class="sec2__item__img__hide ">
-                                                      <div class="sec2__item__icon ">
+                                                      <div class="sec2__item__icon sec2__item__icon2 ">
                                                           <div id="showing" onclick="show(productArray6, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
                                                           <div onclick="wishlist(productArray6, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></div>
-                                                      </div> <!--sec2__item__icon  -->
+                                                      </div> <!--sec2__item__icon sec2__item__icon2  -->
                                                       <div class="sec2__item__btn">
                                                           <button class="btn1" id="btn__show" onclick="cartShow(productArray6, ${i})"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
                                                       </div>
@@ -1003,13 +1003,13 @@ if (cartContainer.style.left === "0px") {
                                                   </a>
                                               </div> <!-- sec2__item__img__show-->
                                           </div> <!-- sec2__img -->
-                                          <div class="sec2__item__icon d-xl-none d-flex">
+                                          <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
                                               <ul>
                                                   <li id="showing" onclick="show(productArray6, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
                                                   <li onclick="wishlist(productArray6, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></li>
                                                   <li onclick="cartShow(productArray6, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
                                               </ul>
-                                          </div> <!--sec2__item__icon  -->
+                                          </div> <!--sec2__item__icon sec2__item__icon2  -->
                                           <div class="sec2__item__text text-center">
                                           <h3>${productArray[i].tittle}</h3>
 
@@ -1123,10 +1123,10 @@ if (cartContainer.style.left === "0px") {
             //                               <div class="sec2__img">
             //                                   <div class="sec2__item__img__show">
             //                                       <div class="sec2__item__img__hide ">
-            //                                           <div class="sec2__item__icon ">
+            //                                           <div class="sec2__item__icon sec2__item__icon2 ">
             //                                               <div id="showing" onclick="show(productArray7, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
             //                                               <div onclick="wishlist(productArray7, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></div>
-            //                                           </div> <!--sec2__item__icon  -->
+            //                                           </div> <!--sec2__item__icon sec2__item__icon2  -->
             //                                           <div class="sec2__item__btn">
             //                                               <button class="btn1" id="btn__show" onclick="cartShow(productArray7, ${i})"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
             //                                           </div>
@@ -1139,13 +1139,13 @@ if (cartContainer.style.left === "0px") {
             //                                       </a>
             //                                   </div> <!-- sec2__item__img__show-->
             //                               </div> <!-- sec2__img -->
-            //                               <div class="sec2__item__icon d-xl-none d-flex">
+            //                               <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
             //                                   <ul>
             //                                       <li id="showing" onclick="show(productArray7, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
             //                                       <li onclick="wishlist(productArray7, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></li>
             //                                       <li onclick="cartShow(productArray7, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
             //                                   </ul>
-            //                               </div> <!--sec2__item__icon  -->
+            //                               </div> <!--sec2__item__icon sec2__item__icon2  -->
             //                               <div class="sec2__item__text text-center">
             //                               <h3>${productArray[i].tittle}</h3>
 
@@ -1250,10 +1250,10 @@ if (cartContainer.style.left === "0px") {
                                         <div class="sec2__img">
                                             <div class="sec2__item__img__show">
                                                 <div class="sec2__item__img__hide ">
-                                                    <div class="sec2__item__icon ">
+                                                    <div class="sec2__item__icon sec2__item__icon2 ">
                                                         <div id="showing" onclick="show(productArray7, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></div>
                                                         <div onclick="wishlist(productArray7, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></div>
-                                                    </div> <!--sec2__item__icon  -->
+                                                    </div> <!--sec2__item__icon sec2__item__icon2  -->
                                                     <div class="sec2__item__btn">
                                                         <button class="btn1" id="btn__show" onclick="cartShow(productArray7, ${i})"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
                                                     </div>
@@ -1266,13 +1266,13 @@ if (cartContainer.style.left === "0px") {
                                                 </a>
                                             </div> <!-- sec2__item__img__show-->
                                         </div> <!-- sec2__img -->
-                                        <div class="sec2__item__icon d-xl-none d-flex">
+                                        <div class="sec2__item__icon sec2__item__icon2 d-xl-none d-flex">
                                             <ul>
                                                 <li id="showing" onclick="show(productArray7, ${i})"><i  class="fa-regular fa-eye"></i><span>Quickview</span></li>
                                                 <li onclick="wishlist(productArray7, ${i})"><i class="fa-solid fa-heart"></i><span>wishlist</span></li>
                                                 <li onclick="cartShow(productArray7, ${i})"><i class="fa-solid fa-cart-shopping"></i><span>add to cart</span></li>
                                             </ul>
-                                        </div> <!--sec2__item__icon  -->
+                                        </div> <!--sec2__item__icon sec2__item__icon2  -->
                                         <div class="sec2__item__text text-center">
                                         <h3>${productArray[i].tittle}</h3>
 

@@ -75,8 +75,18 @@
           margin-left: 124px;
           margin-top: 23px;
       }
-      .sec3 .sec3__item .sec3__item__text>span{
-        font-size: 18px;
+      .sec2__item__icon2 ul{
+                  display: flex;
+          justify-content: space-around;
+          flex-direction: row ;
+          margin-left: 59px;
+          margin-top: 23px;
+      }
+      .sec2__item__icon2 {
+        position: sticky;
+        width: 174px;
+        left:33%;
+
       }
       .sec3 .sec3__item .sec3__item__text span{
         font-size: 16px;
@@ -413,7 +423,6 @@
 @media screen and (max-width:600px){
 
 .sec2__item__icon{
-  position:static;
   margin-top: 5px;
 
  }
